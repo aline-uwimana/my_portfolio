@@ -1,0 +1,111 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* border: 2px solid red; */
+    padding: 40px 60px;
+
+    background: url('image1_background.jpg');
+    background-size: cover;
+}
+
+/* <!-- SKILLS RECTANGLES SECTION --> */
+
+.skills-block {
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+
+.skills-block h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.skills-block-container {
+    /* border: 2px solid purple; */
+    height: 200px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 50px;
+}
+
+.block-middle {
+    height: auto;
+    width: 10px;
+    background-color: rgb(116,215,237);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rectangle {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+
+    display: grid;
+    grid-template-columns: 30% 60%;
+    justify-content: space-between;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+
+    padding: 0 10px;
+}
+
+.rectangle .level {
+    text-align: right;
+    border-bottom: 2px solid black;
+}
+
+
+
+/* <!-- CREATIVE PERSON DESCRIPTION SECTION --> */
+
+.skills-description {
+    /* border: 2px solid green; */
+    margin: 10px 60px;
+    padding: 10px;
+
+    background-color: white;
+    color: black;
+}
+
+.description-section {
+    padding: 10px 50px;
+}
+
+.description-section h4 {
+    margin: 10px 0;
+} 
+
+.description-section p {
+    line-height: 1.5;
+}
+
+.description-rectangle {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    max-width: 30%;
+
+    margin: 10px auto;
+    padding: 2px 5px;
+
+    height: 35px;
+    background-color: rgb(116,215,237);
+}
+
+.description-level {
+    text-align: right;
+    border-bottom: 2px solid black;
+}
